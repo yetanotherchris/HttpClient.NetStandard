@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>HttpClient.NetStandard</id>
+    <version>0.9-alpha</version>
+    <authors>TJGDev</authors>
+    <owners>Totaljobs Group</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A HttpClient abstraction based off the contracts/interfaces from Restsharp.</description>
+    <copyright>TJG 2016</copyright>
+    <tags>HttpClient</tags>
+    <dependencies>
+      <dependency id="Flurl" version="2.2.1" />
+      <dependency id="Flurl.Http" version="1.1.1" />
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+    </dependencies>
+  </metadata>
+</package>
